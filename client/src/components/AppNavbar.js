@@ -235,7 +235,7 @@ class AppNavbar extends Component {
 				<NavbarBrand id="Logo" href="#home">
 					<img
 					alt=""
-					src={require('D:/Parrot/Desktop/Dev/Duplicate/Embedded_Music_Player/client/src/images/Logo-Smaller.png')}
+					src={require('../images/Logo-Smaller.png')}
 					/>
 				</NavbarBrand>
 				<Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -276,31 +276,31 @@ class AppNavbar extends Component {
 								<img class="transparent" id="Player" 
 								alt=""
 								onClick={this.prevTrack}
-								src={require('D:/Parrot/Desktop/Dev/Duplicate/Embedded_Music_Player/client/src/images/Previous-smallest.png')}
+								src={require('../images/Previous-smallest.png')}
 								/>
 
 								<img class="transparent" id="Player"
 								alt=""
 								onClick={this.playpauseTrack}
-								src={this.state.isPlaying ? require("D:/Parrot/Desktop/Dev/Duplicate/Embedded_Music_Player/client/src/images/Pause-smallest.png") : require('D:/Parrot/Desktop/Dev/Duplicate/Embedded_Music_Player/client/src/images/Play-smallest.png')}
+								src={this.state.isPlaying ? require("../images/Pause-smallest.png") : require('../images/Play-smallest.png')}
 								/>
 								
 								<img class="transparent" id="Player" 
 								alt=""
 								onClick={this.nextTrack}
-								src={require('D:/Parrot/Desktop/Dev/Duplicate/Embedded_Music_Player/client/src/images/Next-smallest.png')}
+								src={require('../images/Next-smallest.png')}
 								/>
 
 								<img class="transparent" id="Player" style={{opacity: this.state.isLooping ? "1" : "0.8"}}
 								alt=""
 								onClick={this.loopTrack}
-								src={require('D:/Parrot/Desktop/Dev/Duplicate/Embedded_Music_Player/client/src/images/Loop-small.png')}
+								src={require('../images/Loop-small.png')}
 								/>
 
 								<img class="transparent" id="Player" style={{opacity: this.state.isShuffling ? "1" : "0.8"}}
 								alt=""
 								onClick={this.shuffleTrack}
-								src={require('D:/Parrot/Desktop/Dev/Duplicate/Embedded_Music_Player/client/src/images/Shuffle-smallest.png')}
+								src={require('../images/Shuffle-smallest.png')}
 								/>
 
 							</li>
