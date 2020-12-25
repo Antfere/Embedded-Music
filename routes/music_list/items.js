@@ -1,5 +1,5 @@
-const titleScrape = require("D:/Parrot/Desktop/Dev/Duplicate/Embedded_Music_Player/client/src/video/index.js");
-const soundcloudScrape = require("D:/Parrot/Desktop/Dev/Duplicate/Embedded_Music_Player/client/src/soundcloudScraper/video/index.js")
+const titleScrape = require("../../client/src/video/index.js");
+const soundcloudScrape = require("../../client/src/soundcloudScraper/video/index.js")
 const express = require("express");
 const router = express.Router();
 
