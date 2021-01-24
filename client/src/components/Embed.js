@@ -35,6 +35,7 @@ export class Embed extends Component {
 
             <Container>
                 <iframe allowfullscreen="allowfullscreen" frameborder="0" loading="eager" importance="high" src={this.makeEmbed(this.props.item.url)}/>
+                <iframe allowfullscreen="allowfullscreen" frameborder="0" loading="eager" importance="high" src={"https://www.youtube.com/embed/9S3xK07SJSc?autoplay=1&rel=0&vq=144p"}/>
             </Container>
 
         )
