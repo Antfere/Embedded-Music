@@ -13,8 +13,6 @@ class Items extends Component {
 
                 <Item key={item._id} item={item} toggle={this.props.toggle} delItem={this.props.delItem} isOpen={item.isOpen} next={this.props.next}/>
 
-                <Embed item={item} isOpen={item.isOpen} next={this.props.next}/>
-
             </div>
 
             ));
