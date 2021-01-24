@@ -5,6 +5,8 @@ const path = require("path")
 
 const items = require("./routes/music_list/items");
 
+// Works well locally, when deployed on heroku iframes return as blank. Not a fetch problem, not a CRUD problem, CORS possibly? No logs I can diagnose.
+
 const app = express();
 
 // Bodyparser Middleware

@@ -57,6 +57,8 @@ class MusicList extends Component {
 
                 <Items items={items} toggle={this.toggle} delItem={this.delItem}/>
 
+                
+
             </div>
 
         )

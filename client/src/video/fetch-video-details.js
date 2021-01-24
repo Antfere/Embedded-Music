@@ -3,7 +3,7 @@ const extractValue = require('../utils/cheerio-extract-value')
 
 module.exports = async (videoId) => {
   console.log(videoId)
-  const fetchedPage = await fetchPage({url: `https://www.youtube.com/watch?v=${videoId}`,}).catch(err => dispatch(authFail(err.message)))
+  const fetchedPage = await fetchPage({url: `https://www.youtube.com/watch?v=${videoId}`,})
   const parsedInfo = await parseVideoInfo(fetchedPage)
   console.log(parsedInfo)
   return parsedInfo;
