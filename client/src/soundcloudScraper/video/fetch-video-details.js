@@ -4,6 +4,7 @@ module.exports = async (url) => {
   const fetchedPage = await fetch(url)
     .then(res => res.text())
     .then(body => parseSongInfo(body))
+    .catch(err => dispatch(authFail(err.message)))
   return fetchedPage
 }
 
