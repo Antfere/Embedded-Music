@@ -54,8 +54,6 @@ class MusicList extends Component {
 
                     <iframe allowfullscreen="allowfullscreen" frameborder="0" loading="eager" importance="high" src={"https://www.youtube.com/embed/9S3xK07SJSc?autoplay=1&rel=0&vq=144p"}/>
 
-                    <Embed item={items} isOpen={true}/>
-
                 </Container>
 
                 <Items items={items} toggle={this.toggle} delItem={this.delItem}/>

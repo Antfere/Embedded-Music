@@ -30,8 +30,6 @@ export class Item extends Component {
                     <iframe allowfullscreen="allowfullscreen" frameborder="0" loading="eager" importance="high" src={"https://www.youtube.com/embed/9S3xK07SJSc?autoplay=1&rel=0&vq=144p"}/>
                 </Collapse>
 
-                <Embed item={this.props.item} isOpen={this.props.isOpen} next={this.props.next}/>
-
             </div>
         )
     }
