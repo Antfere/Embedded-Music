@@ -5,7 +5,7 @@ const path = require("path")
 
 const items = require("./routes/music_list/items");
 
-// Works well locally, when deployed on heroku iframes return as blank. Not a fetch problem, not a CRUD problem, CORS possibly? No logs I can diagnose. Works 
+// Works well locally, when deployed on heroku iframes return as blank. Not a fetch problem, not a CRUD problem, not a cors problem? No logs I can diagnose. Works statically and even dynamically if iframe is set, but not when iframe is pulled from database
 
 const app = express();
 

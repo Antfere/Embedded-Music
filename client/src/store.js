@@ -7,8 +7,7 @@ const middleware = [thunk]
 const store = createStore(
     rootReducer, /* preloadedState, */
     compose(
-        applyMiddleware(...middleware),
-        window.REDUX_DEVTOOLS_EXTENSION_COMPOSE ? window.REDUX_DEVTOOLS_EXTENSION_COMPOSE() : compose
+        applyMiddleware(...middleware)
     )
 
 );
