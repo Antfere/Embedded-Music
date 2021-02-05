@@ -312,7 +312,7 @@ class AppNavbar extends Component {
 					</Nav>
 
 					<ul className="navbar-nav">
-
+{/* 
 						<li>
 							<a href="#Help/FAQ">
 								<Button className="btn btn-secondary Button">Help/FAQ</Button>
@@ -329,8 +329,8 @@ class AppNavbar extends Component {
 							<a href="#Donate">
 								<Button className="btn btn-secondary Button">Donate</Button>
 							</a>
-						</li>
-
+						</li> 
+*/}
 					</ul>
 
 				</Navbar.Collapse>
