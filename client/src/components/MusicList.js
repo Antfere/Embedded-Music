@@ -49,6 +49,7 @@ class MusicList extends Component {
 
                 <Container>
                     <iframe allowfullscreen="allowfullscreen" frameborder="0" loading="eager" importance="high" src={"https://w.soundcloud.com/player/?visual=true&url=https://soundcloud.com/user-231592479/broke-for-free-something-elated&auto_play=true&show_artwork=true"}/>
+                    <iframe allowfullscreen="allowfullscreen" frameborder="0" loading="eager" importance="high" src={"https://www.youtube.com/embed/9oKl99PEbHw?autoplay=1&rel=0&vq=144p"}/>
                 </Container>
 
                 <Items items={items} toggle={this.toggle} delItem={this.delItem}/>
